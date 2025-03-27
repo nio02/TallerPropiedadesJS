@@ -10,14 +10,13 @@ function Semaforo(){
         } else if (this.color == "amarillo"){
             this.color = "rojo"
         }
+        console.log("El semaforo está en", this.color)
     };
 };
 
 let semaforo1 = new Semaforo();
 
-console.log(semaforo1.color)
+
 semaforo1.cambiar()
-console.log(semaforo1.color)
 semaforo1.cambiar()
-console.log(semaforo1.color)
 semaforo1.cambiar()

@@ -8,7 +8,7 @@ function ListaCompras(){
     this.mostrar = () => {
         console.log("Su lista es:")
         for (let i = 0; i < this.productos.length; i++){
-            console.log((`${(i+1)}. ${this.productos[i]}`))
+            console.log(`${(i+1)}. ${this.productos[i]}`)
         }
     };
 };
