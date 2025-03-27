@@ -1,7 +1,7 @@
 // Termómetro (Variables + condiciones)
 
 function Termometro(){
-    this.actualizar = function(grados){
+    this.actualizar = (grados) => {
         if (grados > 30){
             console.log("¡Hace Calor!")
         } else if (grados < 10){

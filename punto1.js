@@ -4,7 +4,7 @@ function Libro(titulo, autor){
     this.titulo = titulo;
     this.autor = autor;
     this.prestado = false;
-    this.prestar = function(){
+    this.prestar = () => {
         if (this.prestado === false){
             this.prestado = true;
             return `Libro Disponible`

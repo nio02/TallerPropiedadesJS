@@ -2,7 +2,7 @@
 
 function Semaforo(){
     this.color = "rojo";
-    this.cambiar = function(){
+    this.cambiar = () => {
         if (this.color == "rojo"){
             this.color = "verde"
         } else if(this.color == "verde"){

@@ -2,10 +2,10 @@
 
 function ListaCompras(){
     this.productos = [];
-    this.agregar = function(producto){
+    this.agregar = (producto) => {
         this.productos.push(producto)
     };
-    this.mostrar = function(){
+    this.mostrar = () => {
         console.log("Su lista es:")
         for (let i = 0; i < this.productos.length; i++){
             console.log((`${(i+1)}. ${this.productos[i]}`))
